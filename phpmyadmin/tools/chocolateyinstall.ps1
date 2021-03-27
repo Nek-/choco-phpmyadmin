@@ -18,17 +18,13 @@ $pp = Get-PackageParameters
 #$fileLocation = '\\SHARE_LOCATION\to\INSTALLER_FILE'
 # Community Repo: Use official urls for non-redist binaries or redist where total package size is over 200MB
 # Internal/Organization: Download from internal location (internet sources are unreliable)
-$url        = 'https://files.phpmyadmin.net/phpMyAdmin/5.1.0/phpMyAdmin-5.1.0-all-languages.zip' # download url, HTTPS preferred
-$basename = $url.Substring($url.LastIndexOf("/") + 1)
-$ext = (Split-Path $basename).split('\.')[-1]
-$basename = $basename -replace ".zip$", ""
+
 #$url64      = '' # 64bit URL here (HTTPS preferred) or remove - if installer contains both (very rare), use $url
 
 $packageArgs = @{
   packageName   = $env:ChocolateyPackageName
   #fileType      = 'EXE_MSI_OR_MSU' #only one of these: exe, msi, msu
-  url           = $url
-  specificFolder = $basename
+  url           = 'https://files.phpmyadmin.net/phpMyAdmin/5.1.0/phpMyAdmin-5.1.0-all-languages.zip'
   #url64bit      = $url64
   #file         = $fileLocation
 
@@ -61,6 +57,10 @@ $packageArgs = @{
                                  #       https://chocolatey.org/packages/autohotkey.portable
   #validExitCodes= @(0) #please insert other valid exit codes here
 }
+
+$basename = $packageArgs.url.Substring($packageArgs.url.LastIndexOf("/") + 1)
+# $ext = (Split-Path $basename).split('\.')[-1]
+$basename = $basename -replace ".zip$", ""
 
 $newInstallLocation = $packageArgs.Destination = GetInstallLocation $packageArgs.packageName $pp
 $newInstallLocationTmp = "$($newInstallLocation)-tmp"

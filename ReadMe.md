@@ -1,4 +1,9 @@
-﻿# PhpMyAdmin Package for Chocolatey
+[![](https://ci.appveyor.com/api/projects/status/github/Nek-/chocolatey-packages?svg=true)](https://ci.appveyor.com/project/Nek-/chocolatey-packages)
+[Update status](https://gist.github.com/Nek-/YOUR_GIST_ID_HERE)
+[![](http://transparent-favicon.info/favicon.ico)](#)
+[chocolatey/Nek](https://chocolatey.org/profiles/Nek)
+
+# PhpMyAdmin package for Chocolatey
 
 
 PHP Configuration

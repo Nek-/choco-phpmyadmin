@@ -1,2 +1,2 @@
-test.ps1
-phpmyadmin.*.nupkg
+phpmyadmin/test.ps1
+phpmyadmin/phpmyadmin.*.nupkg
