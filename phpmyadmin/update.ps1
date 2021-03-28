@@ -4,13 +4,14 @@ $releases = 'https://www.phpmyadmin.net/downloads/'
 
 function global:au_SearchReplace {
     @{
-        ".\tools\legal\VERIFICATION.txt" = @{
-          "(?i)(checksum:).*"       = "`${1} $($Latest.Checksum)"
+        ".\tools\chocolateyinstall.ps1" = @{
+          "(?i)(\s*url\s*=\s*)('.*')" = "`${1}'$($Latest.URL32)'"
+          "(?i)(\s*checksum\s*=\s*)('.*')" = "`${1}'$($Latest.sha256)'"
         }
 
-        ".\tools\chocolateyinstall.ps1" = @{
-          "(?i)(\s*url\s*=\s*)('.*')"      = "`${1} $($Latest.URL32)"
-          "(?i)(\s*checksum\s*=\s*)('.*')" = "`${1} $($Latest.Checksum32)"
+        ".\legal\VERIFICATION.txt" = @{
+          "(?i)(  phpMyAdmin:).*" = "`${1} <$($Latest.URL32)>"
+          "(?i)(  checksum:).*" = "`${1} $($Latest.sha256)"
         }
     }
 }
@@ -33,7 +34,7 @@ function global:au_GetLatest {
 }
 
 try {
-    update -ChecksumFor 32
+    update -ChecksumFor 32 -Force
 } catch {
     $ignore = 'Unable to connect to the remote server'
     if ($_ -match $ignore) { Write-Host $ignore; 'ignore' }  else { throw $_ }
