@@ -1,5 +1,4 @@
 # AU Packages Template: https://github.com/majkinetor/au-packages-template
-
 param([string[]] $Name, [string] $ForcedPackages, [string] $Root = $PSScriptRoot)
 
 if (Test-Path $PSScriptRoot/update_vars.ps1) { . $PSScriptRoot/update_vars.ps1 }
@@ -45,7 +44,7 @@ $Options = [ordered]@{
             UserMessage = "[Ignored](#ignored) | [History](#update-history) | [Force Test](https://gist.github.com/$Env:gist_id_test) | [Releases](https://github.com/$Env:github_user_repo/tags)"       #  Markdown, Text: Custom user message to show
             NoIcons     = $false                            #  Markdown: don't show icon
             IconSize    = 32                                #  Markdown: icon size
-            Title       = ''                                #  Markdown, Text: TItle of the report, by default 'Update-AUPackages'
+            Title       = 'phpmyadmin'                      #  Markdown, Text: TItle of the report, by default 'Update-AUPackages'
         }
     }
 
