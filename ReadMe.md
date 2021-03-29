@@ -1,5 +1,5 @@
 [![](https://ci.appveyor.com/api/projects/status/github/Nek-/chocolatey-packages?svg=true)](https://ci.appveyor.com/project/Nek-/chocolatey-packages)
-[Update status](https://gist.github.com/Nek-/YOUR_GIST_ID_HERE)
+[Update status](https://gist.github.com/NeklandChocobot/f6f304177774bb6a287c6c86ae1a7cdd)
 [![](http://transparent-favicon.info/favicon.ico)](#)
 [chocolatey/Nek](https://chocolatey.org/profiles/Nek)
 
