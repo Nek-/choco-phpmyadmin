@@ -6,6 +6,7 @@
     <title>phpMyAdmin (Install)</title>
     <authors>phpMyAdmin Team</authors>
     <projectUrl>https://www.phpmyadmin.net/</projectUrl>
+    <iconUrl>https://avatars.githubusercontent.com/u/1351977</iconUrl>
     <licenseUrl>https://github.com/phpmyadmin/phpmyadmin/blob/master/LICENSE</licenseUrl>
     <requireLicenseAcceptance>true</requireLicenseAcceptance>
     <tags>phpmyadmin php mariadb mysql</tags>
