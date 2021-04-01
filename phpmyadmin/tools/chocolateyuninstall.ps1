@@ -47,3 +47,4 @@ if ($key.Count -eq 1) {
   $key | % {Write-Warning "- $($_.DisplayName)"}
 }
 Remove-Item $installLocation -Recurse
+Uninstall-BinFile -Name phpmyadmin -Path "$installLocation\bin\phpmyadmin.bat"
