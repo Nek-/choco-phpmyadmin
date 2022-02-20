@@ -2,7 +2,7 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
   <metadata>
     <id>phpmyadmin</id>
-    <version>5.1.0</version>
+    <version>5.1.3</version>
     <title>phpMyAdmin</title>
     <authors>The phpMyAdmin Team</authors>
     <projectUrl>https://www.phpmyadmin.net/</projectUrl>
