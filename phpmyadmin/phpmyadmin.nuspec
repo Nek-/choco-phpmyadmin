@@ -2,7 +2,7 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
   <metadata>
     <id>phpmyadmin</id>
-    <version>5.1.0</version>
+    <version>5.2.2</version>
     <title>phpMyAdmin</title>
     <authors>The phpMyAdmin Team</authors>
     <projectUrl>https://www.phpmyadmin.net/</projectUrl>
@@ -14,7 +14,7 @@
     <packageSourceUrl>https://github.com/Nek-/choco-phpmyadmin</packageSourceUrl>
     <releaseNotes>https://www.phpmyadmin.net/news/</releaseNotes>
     <docsUrl>https://docs.phpmyadmin.net/en/latest/</docsUrl>
-    <mailingListUrl>https://lists.phpmyadmin.net/mailman/listinfo</mailingListUrl>
+    <mailingListUrl>https://lists.phpmyadmin.net</mailingListUrl>
     <bugTrackerUrl>https://github.com/phpmyadmin/phpmyadmin/issues</bugTrackerUrl>
     <projectSourceUrl>https://github.com/phpmyadmin/phpmyadmin</projectSourceUrl>
     <owners>Nek, Maxime Veber</owners>
@@ -33,7 +33,7 @@ phpMyAdmin is a mature project with a stable and flexible code base; you can fin
 The phpMyAdmin project is a member of [Software Freedom Conservancy](https://sfconservancy.org/). SFC is a not-for-profit organization that helps promote, improve, develop, and defend Free, Libre, and Open Source Software (FLOSS) projects.
     ]]></description>
     <dependencies>
-      <dependency id="php" version="8.0" />
+      <dependency id="php" version="8.3" />
     </dependencies>
   </metadata>
   <files>

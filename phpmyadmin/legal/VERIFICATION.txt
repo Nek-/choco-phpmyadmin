@@ -1,31 +1,31 @@
 VERIFICATION
 Verification is intended to assist the Chocolatey moderators and community
 in verifying that this package's contents are trustworthy.
- 
+
 1. Download the following:
-  phpMyAdmin: <https://files.phpmyadmin.net/phpMyAdmin/5.1.0/phpMyAdmin-5.1.0-all-languages.zip>
+  phpMyAdmin: <https://files.phpmyadmin.net/phpMyAdmin/5.2.2/phpMyAdmin-5.2.2-all-languages.zip>
 2. Get the checksum using one of the following methods:
   - Using powershell function 'Get-FileHash'
   - Use chocolatey utility 'checksum.exe'
 3. The checksums should match the following:
 
   checksum type: SHA256
-  checksum: 2f29fbfc8884c42290f950b077e0a8af2766507f959f30caef0edaa5fd3e04b9
-4. The content is signed with the following key :
+  checksum: 6b99534f72ffb1d7275f50d23ca4141e1495c97d7cadb73a41d6dc580ed5ce29
+4. The content is signed with the following signature :
 
 -----BEGIN PGP SIGNATURE-----
 
-iQIzBAABCgAdFiEEPQalns5zDrcbURwXznUvF4JZvZIFAmA17gEACgkQznUvF4JZ
-vZKo7g//Z/C/jJqQQE8s350NzG1MPtwzXBXPJWphHOjDXSx+tiwjG2rIGXLKQuJy
-VfskEOdMkqv2MArwaS6Q4gvgf7dk9W+HZeGawNW52qzXshKU6zBfV0hbqc1agO4f
-fLdbBGw3+sAJHw7hF1vegHFGchwEGqQhBk3OknF4kKVFHvcrwGscE+7/BB21eeEE
-eduAbEk3dJwvpHZzWntdD/upwhPcSy/d1+h6ERLN/cnTfYF7RMgvXclYVpPuVTBl
-BiFez5cL0TSwKvs7den3IPTqNEuQz4z+ZOEpB/51qP/2FhpVBLyMacDnhoMQFHIz
-bD7yHH/p4hhwEqWdgF/vZRPP1ByNdrSfhInS4oUWay5Y9JiVA10zI2SdSY4IF+lB
-obVniHG5uSUVqRGGE4ESY/F0psfx1gzeCnGqMrfWpfQABufiprvVpegBRz+jvxHU
-KW2juPOpGfiNFP02m8ejavVgGowhBPSx2p2QrMlJxigPf4HqKkbB86ufEVyE6Kgh
-PBkX+bsNiMbra7p5vv01H/Lu14X7voX86/nZLnBgHjC+V1pftX4BMRaSzADSQild
-LTs0n4omDIS0eTMRFxoim1M4XYIkyO5fYv+h2DphgJC9uAcRGGmXRjmNmUhFyFxc
-XF+7r1OcarJ8dfjuVqE7W8JdHKYFMXz/cHHsXVosda1POtGJ9XM=
-=6Ked
+iQIzBAABCgAdFiEEPQalns5zDrcbURwXznUvF4JZvZIFAmePEeUACgkQznUvF4JZ
+vZI9lA//VcTteiIF/zg4WlgZ6Wx7d5eRHAq43v8o4RqNzSjyJT/kH4k/Olbx2s/7
+hsoAT9eGU8ZYgom0vfjlH4sS8Rx19YSUUcCEdQpPrVraTdEvzO+hypiFvBBJIteB
+vEGZIkmtSZBI7a9iTyxUMVfwW1YLmkCW1ejy+7K5Qi5N93nKEQrGuzG/I8g2LNGp
+HIriNmsR3P8PuMefvE0y1ktVktX2andmmtC2E+7uKkWQSqYzWqX8FrA/gNWorl6j
+SScPP8cvP5abuPM/nvAY8M5cGLYHF8ZcYGVQbqTR6fWkHC6V0B9k/MZXH0EvLc+f
+J4KzcYFtc59uZDXtfCLWwZ38D+c1crmSRf0tg4S0xIOYVGFVTZJFtNWavCqVt60x
+ZupRxqYwl8XooUOyAtd8XIIYcshUJ2f5urvw2b2dstrPyaAv10FlFQEQBK4/HrSE
+w86pFpu4WkED6MnMexaW3Ty6NdPYR3gwDojdedfecYCXQbDXbvvpBGX48KLwHv5z
+gMbnme5qQRMUgECXx7Cn9eOTN+LP1HQDOdPMQkI26nc/t64zyKLjYft5dRsppJ78
+tuWnaDm/ND63Wi5ze5VJg1z4fSKPfO7Q17ZoypCNqwvzUtnor+Wy89aZZ1KXClef
+uStX+V9cxHiqNTT6TKbkSK6XMsb8vB6xuyPzGoUaZ4e//5ULWZ4=
+=GIu6
 -----END PGP SIGNATURE-----
