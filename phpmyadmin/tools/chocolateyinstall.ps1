@@ -6,11 +6,11 @@ $pp = Get-PackageParameters
 
 $packageArgs = @{
   packageName   = $env:ChocolateyPackageName
-  url           = 'https://files.phpmyadmin.net/phpMyAdmin/5.1.0/phpMyAdmin-5.1.0-all-languages.zip'
+  url           = 'https://files.phpmyadmin.net/phpMyAdmin/5.2.2/phpMyAdmin-5.2.2-all-languages.zip'
 
   softwareName  = 'phpmyadmin'
 
-  checksum      = '2f29fbfc8884c42290f950b077e0a8af2766507f959f30caef0edaa5fd3e04b9'
+  checksum      = '6b99534f72ffb1d7275f50d23ca4141e1495c97d7cadb73a41d6dc580ed5ce29'
   checksumType  = 'sha256'
 }
 
